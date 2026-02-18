@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-vietnam: "Be Vietnam Pro";
+  --text-heading-xl: 1.5rem;
+  /* 24px */
+  --text-heading-lg: 1.25rem;
+  /* 20px */
+  --text-body-lg: 1rem;
+  /* 16px */
+  --text-body-sm: 0.875rem;
+  /* 14px */
+
+  /* Colors */
+  --color-slate-indigo: #393f6e;
+  --color-mist-gray: #e2e4f3;
+  --color-deep-navy: #343964;
+  --color-azure-blue: #3e9fff;
+  --color-coral-red: #dd524c;
+  --color-muted-purple: #8b8eab;
+  --color-soft-cream: #ffecc8;
+
+  /* Backgrounds */
+  --background-image-brand-gradient: linear-gradient(to right, #e65895, #bc6be8);
+  --background-image-main-bg: radial-gradient(circle at top left, #393f6e, #343964);
+}
+
+* {
+  font-family: var(--font-vietnam);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("src/assets/resources/bg-sm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
