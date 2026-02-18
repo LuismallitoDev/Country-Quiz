@@ -7,7 +7,7 @@ function App() {
   const { gameOver } = useQuiz()
 
   return (
-    <div className="min-h-screen w-full font-vietnam grid grid-cols-12 items-center p-4">
+    <div className="font-vietnam grid grid-cols-12 items-center p-4  min-h-screen min-w-full ">
       {/* - col-span-12: Full width en móvil
           - min-[635px]:col-span-8: A partir de 635px ocupa 8 columnas
           - min-[635px]:col-start-3: Centrado manual

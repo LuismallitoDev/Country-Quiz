@@ -36,7 +36,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("src/assets/resources/bg-sm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
